@@ -8,6 +8,6 @@ clean:
 	rm -f build/*
 
 run: compile
-	./build/main
+	rlwrap ./build/main
 
 _dummy := $(shell mkdir -p build)
